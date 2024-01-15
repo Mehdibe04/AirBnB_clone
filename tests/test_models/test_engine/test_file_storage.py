@@ -79,7 +79,7 @@ class TestFileStorage(unittest.TestCase):
         self.assertEqual(reloaded_data[self.keyname], saved_data[self.keyname])
 
     def test_path(self):
-        """Test the existence of the JSON file"""
+        """Tst d exstce of d JSON fl"""
         if os.path.exists(self.file_path):
             os.remove(self.file_path)
         self.assertFalse(os.path.exists(self.file_path))
